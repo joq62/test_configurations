@@ -2,26 +2,24 @@
 %% Host Information 
 %
 %%------------------------ applications to init start ----------------------
-{id,{"c100","host"}}.
+{id,{"c203","host"}}.
 %% -----------------------host access information  --------------------------------
-{access_info,[{hostname,"c100"},
-              {ip,"192.168.0.100"},
+{access_info,[{hostname,"c203"},
+              {ip,"192.168.0.203"},
 	      {ssh_port,22},
-	      {uid,"joq62"},
+	      {uid,"pi"},
 	      {pwd,"festum01"},
-	      {node,'host@c100'}
+	      {node,'host@c203'}
 	     ]
 }.
 	      
 %% -----------------------host_Type --------------------------------
-{host_type,auto_erl_controller}.
+{host_type,non_auto_erl_worker}.
 
 %% ---------------------- erlang start info -----------------------
-{start_args,[{erl_cmd,"/lib/erlang/bin/erl -detached"},
+{start_args,[{erl_cmd,""/snap/erlang/current/usr/bin/erl -detached""},
              {cookie,"cookie"},
-	     {env_vars,[{kublet,[{mode,controller}]},
-			{dbase_infra,[{nodes,['host@c200','host@c201','host@c202']}]},	
-			{bully,[{nodes,['host@c200','host@c201','host@c202']}]}]},
+	     {env_vars,[]},
 	     {nodename,"host"}
 	    ]
 }.

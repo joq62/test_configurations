@@ -22,7 +22,7 @@
 	     {env_vars,[{kublet,[{mode,controller}]},
 			{dbase_infra,[{nodes,['host@c200','host@c201','host@c100']}]},	
 			{bully,[{nodes,['host@c200','host@c201','host@c100']}]}]},
-	     {nodename,"host2"}
+	     {nodename,"host"}
 	    ]
 }.
 

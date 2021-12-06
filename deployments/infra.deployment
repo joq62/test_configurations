@@ -1,0 +1,7 @@
+%%
+%% Information about a specific deployment
+%
+%%------------------------ applications  ----------------------
+{name,infra}.
+{vsn,"1.0.0"}.
+{pod_specs,[{infra,"1.0.0"}]}.

@@ -1,0 +1,8 @@
+%%
+%% Information about a specific deployment
+%
+%%------------------------ applications  ----------------------
+{name,"mydivi"}.
+{vsn,"1.0.0"}.
+{info,[{mydivi,"1.0.0"}]}.
+{host,{preffered,["c203"]}}.

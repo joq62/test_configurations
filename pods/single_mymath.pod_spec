@@ -1,0 +1,10 @@
+%%
+%% Information about a specific deployment
+%
+%%------------------------ applications  ----------------------
+{name,"single_mymath"}.
+{vsn,"1.0.0"}.
+{info,[{myamath,"1.0.0"},
+       {myadd,"1.0.0"},
+       {mydivi,"1.0.0"}]}.
+{host,{no_preference,[]}}.

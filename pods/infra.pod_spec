@@ -1,0 +1,12 @@
+%%
+%% Information about a specific deployment
+%
+%%------------------------ applications  ----------------------
+{name,"infra"}.
+{vsn,"1.0.0"}.
+{info,[{controller,"0.1.0"},
+       {dbase_infra,"1.0.0"},
+       {sd,"1.0.0"},
+       {host,"1.0.0"}
+     ]}.
+{host,{no_preference,[]}}.

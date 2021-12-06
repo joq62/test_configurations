@@ -5,4 +5,4 @@
 {name,"mydivi"}.
 {vsn,"1.0.0"}.
 {application,[{mydivi,"1.0.0"}]}.
-{host,{preffered,["c203"]}}.
+{host,{preffered,["c201"]}}.

@@ -8,4 +8,4 @@
        {myadd,"1.0.0"},
        {mydivi,"1.0.0"},
        {sd,"1.0.0"}]}.
-{host,{no_preference,[]}}.
+{host,{preferred,[{"c202","host"}]}}.

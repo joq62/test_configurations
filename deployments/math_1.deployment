@@ -1,0 +1,9 @@
+%%
+%% Information about a specific deployment
+%
+%%------------------------ applications  ----------------------
+{name,"math_1"}.
+{vsn,"1.0.0"}.
+{pod_specs,[{"single_mymath","1.0.0"},
+	    {"mydivi","1.0.0"},
+	    {"myadd","1.0.0"}]}.

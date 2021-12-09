@@ -1,0 +1,10 @@
+%%
+%% Information about a specific deployment
+%
+%%------------------------ applications  ----------------------
+{name,"divi_multi"}.
+{vsn,"1.0.0"}.
+{pod_specs,[{"mydivi_c200","1.0.0"},
+	    {"mydivi_c201","1.0.0"},
+            {"mydivi_c202","1.0.0"},
+            {"mydivi_c203","1.0.0"}]}.

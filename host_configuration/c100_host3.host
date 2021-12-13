@@ -18,7 +18,7 @@
 
 %% ---------------------- erlang start info -----------------------
 {start_args,[{erl_cmd,"erl -detached"},
-             {cookie,"cookie"},
+             {cookie,"cookie_test"},
 	     {env_vars,[{kublet,[{mode,controller}]},
 			{dbase_infra,[{nodes,['host1@c100',
 				              'host2@c100',

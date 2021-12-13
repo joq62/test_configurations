@@ -28,5 +28,5 @@
 {dirs_to_keep,["logs"]}.
 
 %%----------------------- service dir ---------------------------------
-{application_dir,"host.applications"}.
+{application_dir,"host4.applications"}.
 

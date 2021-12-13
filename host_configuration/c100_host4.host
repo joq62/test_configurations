@@ -19,7 +19,7 @@
 %% ---------------------- erlang start info -----------------------
 {start_args,[{erl_cmd,"erl -detached"},
              {cookie,"cookie"},
-	     {env_vars,[]}]}]},
+	     {env_vars,[]},
 	     {nodename,"host4"}	
 	    ]
 }.

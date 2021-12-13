@@ -2,14 +2,14 @@
 %% Host Information 
 %
 %%------------------------ applications to init start ----------------------
-{id,{"c200","host"}}.
+{id,{"c100","host3"}}.
 %% -----------------------host access information  --------------------------------
-{access_info,[{hostname,"c200"},
-              {ip,"192.168.0.200"},
+{access_info,[{hostname,"c100"},
+              {ip,"192.168.0.100"},
 	      {ssh_port,22},
 	      {uid,"joq62"},
 	      {pwd,"festum01"},
-	      {node,'host@c200'}
+	      {node,'host3@c100'}
 	     ]
 }.
 	      
@@ -20,9 +20,13 @@
 {start_args,[{erl_cmd,"erl -detached"},
              {cookie,"cookie"},
 	     {env_vars,[{kublet,[{mode,controller}]},
-			{dbase_infra,[{nodes,['host@c201','host@c202']}]},	
-			{bully,[{nodes,['host@c201','host@c202']}]}]},
-	     {nodename,"host"}
+			{dbase_infra,[{nodes,['host1@c100',
+				              'host2@c100',
+					      'host4@c100']}]},	
+			{bully,[{nodes,['host1@c100',
+				        'host2@c100'	,
+					'host4@c100']}]}]},
+	     {nodename,"host3"}	
 	    ]
 }.
 

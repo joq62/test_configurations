@@ -5,3 +5,4 @@
 {name,"add_1"}.
 {vsn,"1.0.0"}.
 {pod_specs,[{"myadd","1.0.0"}]}.
+{affinity,[]}.

@@ -5,4 +5,4 @@
 {name,"sd"}.
 {vsn,"1.0.0"}.
 {application,[{sd,"1.0.0"}]}.
-{host,{no_preference,[]}}.
+{needs,[]}.

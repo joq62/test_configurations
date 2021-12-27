@@ -9,4 +9,4 @@
               {sd,"1.0.0"},
               {host,"1.0.0"}
             ]}.
-{host,{no_preference,[]}}.
+{needs,[]}.

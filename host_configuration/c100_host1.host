@@ -36,3 +36,5 @@
 %%----------------------- service dir ---------------------------------
 {application_dir,"host1.applications"}.
 
+%%----------------------- Capabilities ---------------------------------
+{capabilities,[{port,5566},{hw,[zigbee_2]}]}.

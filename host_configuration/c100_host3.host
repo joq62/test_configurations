@@ -35,4 +35,5 @@
 
 %%----------------------- service dir ---------------------------------
 {application_dir,"host3.applications"}.
-
+%%----------------------- Capabilities ---------------------------------
+{capabilities,[]}.

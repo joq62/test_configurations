@@ -4,10 +4,9 @@
 %%------------------------ applications  ----------------------
 {name,"infra"}.
 {vsn,"1.0.0"}.
-{application,[
-		{bully,"0.1.0"},
-		{logger_infra,"1.0.0"},
-	       	{dbase_infra,"1.0.0"},
-              	{sd,"1.0.0"}
+{application,[{controller,"0.1.0"},
+              {dbase_infra,"1.0.0"},
+              {sd,"1.0.0"},
+              {host,"1.0.0"}
             ]}.
 {needs,[]}.

@@ -10,6 +10,6 @@
 	      {dbase_infra,"1.0.0"},
 	      {host,"1.0.0"},
 	      {logger_infra,"1.0.0"},
-              {controller,"1.0.0"},
+              {controller,"1.0.0"}
             ]}.
 {needs,[]}.

@@ -1,8 +1,0 @@
-%%
-%% Information about a specific deployment
-%
-%%------------------------ applications  ----------------------
-{name,"infra_3"}.
-{vsn,"1.0.0"}.
-{pod_specs,[{"infra","1.0.0"}]}.
-{affinity,[{"c100","host3"}]}.

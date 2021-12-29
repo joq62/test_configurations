@@ -1,3 +1,4 @@
+{boot,"1.0.0","https://github.com/joq62/boot.git"}.
 {logger_infra,"1.0.0","https://github.com/joq62/logger_infra.git"}.
 {dbase_infra,"1.0.0","https://github.com/joq62/dbase_infra.git"}.
 {controller,"0.1.0","https://github.com/joq62/controller.git"}.

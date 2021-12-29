@@ -8,6 +8,7 @@
 	      {sd,"1.0.0"},	
 	      {bully,"0.1.0"},
 	      {dbase_infra,"1.0.0"},
+	      {host,"1.0.0"},
 	      {logger_infra,"1.0.0"}              
             ]}.
 {needs,[]}.

@@ -17,7 +17,7 @@
 {host_type,no_auto_erl_worker}.
 
 %% ---------------------- erlang start info -----------------------
-{start_args,[{erl_cmd,"erl -detached"},
+{start_args,[{erl_cmd,"/snap/erlang/current/usr/bin/erl -detached"},
              {cookie,"cookie_test"},
 	     {env_vars,[]},
 	     {nodename,"host"}	

@@ -1,0 +1,10 @@
+%%
+%% Information about a specific deployment
+%
+%%------------------------ applications  ----------------------
+{name,"dbase_infra"}.
+{vsn,"1.0.0"}.
+{application,[{dbase_infra,"1.0.0"},
+              {sd,"1.0.0"}
+            ]}.
+{needs,[]}.

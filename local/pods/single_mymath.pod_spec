@@ -1,0 +1,11 @@
+%%
+%% Information about a specific deployment
+%
+%%------------------------ applications  ----------------------
+{name,"single_mymath"}.
+{vsn,"1.0.0"}.
+{application,[{mymath,"1.0.0"},
+       {myadd,"1.0.0"},
+       {mydivi,"1.0.0"},
+       {sd,"1.0.0"}]}.
+{needs,[{hosts,[{"c100","host3"}]}]}.

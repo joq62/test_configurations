@@ -1,0 +1,8 @@
+%%
+%% Information about a specific deployment
+%
+%%------------------------ applications  ----------------------
+{name,"divi_1"}.
+{vsn,"1.0.0"}.
+{pod_specs,[{"mydivi","1.0.0"}]}.
+{affinity,[]}.

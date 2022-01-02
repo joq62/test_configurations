@@ -2,7 +2,7 @@
 %% Information about a specific deployment
 %
 %%------------------------ applications  ----------------------
-{name,"controller1"}.
+{name,"controller_c201"}.
 {vsn,"1.0.0"}.
 {pod_specs,[{"controller","1.0.0"}]}.
-{affinity,[{"c100","host1"}]}.
+{affinity,[{"c201","host"}]}.
